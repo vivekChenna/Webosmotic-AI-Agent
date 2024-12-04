@@ -13,8 +13,8 @@ RUN npm install
 COPY . .
 
 # Expose the application port (change the port if necessary)
-EXPOSE 9020
+EXPOSE 9050
 
 
 # Command to run the application
-CMD ["npm", "run", "dev", "--", "--port", "9020"]
+CMD ["npm", "run", "dev", "--", "--port", "9050"]
